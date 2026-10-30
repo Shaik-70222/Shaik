@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- ==========================================
+         PAGE TITLE
+    ========================================== -->
+
+    <title>Registration</title>
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         REGISTRATION CONTAINER
+    ========================================== -->
+
+    <div class="form-container">
+
+        <h2>Registration</h2>
+
+        <!-- ==========================================
+             REGISTRATION FORM
+        ========================================== -->
+
+        <form id="registerForm">
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Username"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                required
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+            >
+
+            <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+                required
+            >
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+        <!-- ==========================================
+             MESSAGE
+        ========================================== -->
+
+        <p id="message"></p>
+
+        <!-- ==========================================
+             LOGIN LINK
+        ========================================== -->
+
+        <a href="login.html">
+            Already have an account? Login
+        </a>
+
+    </div>
+
+    <!-- External JavaScript -->
+
+    <script src="register.js"></script>
+
+</body>
+
+</html>

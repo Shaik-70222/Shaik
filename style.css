@@ -1,0 +1,102 @@
+/* ==========================================
+   GLOBAL RESET
+========================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   BODY
+========================================== */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ==========================================
+   FORM CONTAINER
+========================================== */
+
+.form-container{
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* ==========================================
+   HEADING
+========================================== */
+
+h2{
+    margin-bottom: 20px;
+}
+
+/* ==========================================
+   INPUT FIELDS
+========================================== */
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+.links{
+    margin-top: 15px;
+}
+
+.links a,
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover,
+a:hover{
+    text-decoration: underline;
+}
+
+/* ==========================================
+   MESSAGE
+========================================== */
+
+#message,
+#loginMessage{
+    margin-top: 10px;
+    color: red;
+}
